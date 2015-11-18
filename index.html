@@ -15,17 +15,16 @@
 </head>
 <body>
 	<div class="container-fluid">
-		
 		<nav class="navbar-fixed-top">
-			<ul class="main-full-nav text-center">
-				<li><a href="#home" class="active">HOME</a></li>
-				<li><a href="#bio">BIO</a></li>
-				<li><a href="#music">MUSIC</a></li>
-				<li><a href="shop">SHOP</a></li>
-				<li><a href="tour">TOUR</a></li>
-				<li><a href="gallery">GALLERY</a></li>
-				<li><a href="videos">VIDEOS</a></li>
-				<li><a href="contact">CONTACT</a></li>
+			<ul class="main-full-nav text-center" ng-controller="activeNavigation">
+				<li ng-class="{ active: isCurrentPath('/') }"><a href="#/">HOME</a></li>
+				<li ng-class="{ active: isCurrentPath('/bio') }"><a href="#bio">BIO</a></li>
+				<li ng-class="{ active: isCurrentPath('/music') }"><a href="#music">MUSIC</a></li>
+				<li ng-class="{ active: isCurrentPath('/shop') }"><a href="#shop">SHOP</a></li>
+				<li ng-class="{ active: isCurrentPath('/tour') }"><a href="#tour">TOUR</a></li>
+				<li ng-class="{ active: isCurrentPath('/gallery') }"><a href="#gallery">GALLERY</a></li>
+				<li ng-class="{ active: isCurrentPath('/videos') }"><a href="#videos">VIDEOS</a></li>
+				<li ng-class="{ active: isCurrentPath('/contact') }"><a href="#contact">CONTACT</a></li>
 			</ul>
 		</nav>
 		<section>
@@ -37,10 +36,10 @@
 					<a href="https://twitter.com/imlarrybyrd"><i class="fa fa-twitter social-font"></a></i>
 				</li>
 				<li>
-					<a href="https://www.facebook.com/ItsLarryByrd/"><i class="fa fa-facebook social-font"></a></i>
+					<a href="https://www.facebook.com/ImLarryByrd?fref=ts"><i class="fa fa-facebook social-font"></a></i>
 				</li>
 				<li>
-					<a href="https://soundcloud.com/imlarrybyrd"><i class="fa fa-soundcloud social-font"></a></i>
+					<a href="https://soundcloud.com/larrybyrdstl"><i class="fa fa-soundcloud social-font"></a></i>
 				</li>
 				<li>
 					<a href="https://instagram.com/imlarrybyrd/"><i class="fa fa-instagram social-font"></a></i>

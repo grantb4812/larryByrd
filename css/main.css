@@ -84,9 +84,14 @@ a:hover {
     color: white;
 }
 
-.active {
-    text-decoration: none;
+a:active {
     color: white;
+}
+
+.active a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25em;
 }
 
 /* Styling for the bio view */
@@ -97,10 +102,18 @@ a:hover {
     height: 400px;
     width: 800px;
     margin: 0 auto;
-    overflow-y: scroll;
+    overflow: hidden;
     position: relative;
     top: 50%;
-    transform: translateY(25%);
+    transform: translateY(50%);
+}
+
+.bio-scroll {
+    height: 100%;
+    width: 102.5%;
+    overflow: auto;
+    
+   
 }
 
 .bio-img {
@@ -110,6 +123,15 @@ a:hover {
     background-repeat: no-repeat;
     background-size: 100%, cover;
     background-position: 0px -430px;
+}
+
+.bio-img-two {
+    background-image: url("../img/larry.jpg");
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%, cover;
+    background-position: 0px -50px; 
 }
 
 .bio-paragraph p {
@@ -122,5 +144,6 @@ a:hover {
 .bio-paragraph h1 {
     font-family: 'Shadows Into Light', cursive;
     text-align: center;
+    font-size: 9em;
 }
 

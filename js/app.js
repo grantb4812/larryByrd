@@ -2,11 +2,7 @@ app = angular.module('larryByrd', ['ngRoute']);
 
 app.config(function($routeProvider){
    $routeProvider
-        .when('/home', {
-            templateUrl: 'views/home.html'
-        })
-        
-        .when('/home', {
+        .when('/', {
             templateUrl: 'views/home.html'
         })
         
@@ -16,11 +12,13 @@ app.config(function($routeProvider){
         
         .when('/music', {
             templateUrl: 'views/music.html',
-            controller: 'musicController'
+            
             
         })
 });
 
-app.controller('musicController', function($scope){
-    $scope.message = "This is working;"
-});
+app.controller('activeNavigation', ['$scope', '$location', function($scope, $location){
+    $scope.isCurrentPath = function(path) {
+    return $location.path() == path;
+    };
+}]);
