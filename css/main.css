@@ -62,10 +62,10 @@ body {
 #name {
 	position: absolute;
 	text-align: center;
-	top: 50%;
+	top: 25%;
 	left: auto;
 	bottom: auto;
-	width: 90%;
+	width: 100%;
 }
 
 #name h1 {
@@ -100,7 +100,7 @@ a:hover {
     overflow-y: scroll;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(25%);
 }
 
 .bio-img {
@@ -113,8 +113,14 @@ a:hover {
 }
 
 .bio-paragraph p {
+    font-family: 'Abel', sans-serif;
+    font-weight: 100;
+    font-size: 1.75em;
+    /*background-color: black;*/
+}
+
+.bio-paragraph h1 {
     font-family: 'Shadows Into Light', cursive;
-    font-size: 1em;
-    
+    text-align: center;
 }
 
