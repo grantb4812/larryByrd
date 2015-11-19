@@ -13,8 +13,7 @@ app.config(function($routeProvider){
         .when('/music', {
             templateUrl: 'views/music.html',
             
-            
-        })
+        });
 });
 
 app.controller('activeNavigation', ['$scope', '$location', function($scope, $location){
