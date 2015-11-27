@@ -14,16 +14,12 @@ app.config(function($routeProvider){
             templateUrl: 'views/music.html'
         })
         
-        .when('/emailCapture', {
-           templateUrl: 'views/emailCapture.html' 
-        })
-        
         .when('/shop', {
-           templateUrl: 'views/shop.html' 
+           templateUrl: 'views/music.html' 
         })
         
         .when('/gallery', {
-            templateUrl: 'views/gallery.html'
+            templateUrl: 'views/music.html'
         });
 });
 

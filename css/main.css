@@ -151,20 +151,10 @@ a:active {
     margin: 0 auto;
     position: relative;
     top: 50%;
-    transform: translateY(30%);
+    transform: translateY(35%);
     text-align: center;
 }
 
-.emailForm {
-    height: 200px;
-    width: 400px;
-    margin: 0 auto;
-    position: relative;
-    top: 50%;
-    transform: translateY(30%);
-    text-align: center;
-    background-color: white;
-}
 
 #mce-EMAIL {
     color: black;
