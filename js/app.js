@@ -11,8 +11,19 @@ app.config(function($routeProvider){
         })
         
         .when('/music', {
-            templateUrl: 'views/music.html',
-            
+            templateUrl: 'views/music.html'
+        })
+        
+        .when('/emailCapture', {
+           templateUrl: 'views/emailCapture.html' 
+        })
+        
+        .when('/shop', {
+           templateUrl: 'views/shop.html' 
+        })
+        
+        .when('/gallery', {
+            templateUrl: 'views/gallery.html'
         });
 });
 

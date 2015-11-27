@@ -105,15 +105,13 @@ a:active {
     overflow: hidden;
     position: relative;
     top: 50%;
-    transform: translateY(50%);
+    transform: translateY(40%);
 }
 
 .bio-scroll {
     height: 100%;
-    width: 102.5%;
+    width: 100%;
     overflow: auto;
-    
-   
 }
 
 .bio-img {
@@ -153,6 +151,48 @@ a:active {
     margin: 0 auto;
     position: relative;
     top: 50%;
-    transform: translateY(50%);
+    transform: translateY(30%);
+    text-align: center;
 }
 
+.emailForm {
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(30%);
+    text-align: center;
+    background-color: white;
+}
+
+#mce-EMAIL {
+    color: black;
+}
+
+.shopping-cart {
+    width: 75%;
+    height: 35em;
+    background-color: white; 
+    margin: 7em auto;
+    color: #919191;
+    overflow: hidden;
+    text-align: center;
+}
+
+.shopping-row {
+    margin: 2em;
+}
+
+.price {
+    margin-top: -1em;
+    color: black;
+}
+
+.gallery {
+    width: 75%;
+    height: 35em;
+    margin: 7em auto;
+    overflow: hidden;
+    text-align: center;
+}
