@@ -182,19 +182,42 @@ a:active {
 }
 
 .email {
-    width: 10px;
-    height: 10px;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(80%);
-    font-size: 5em;
+     text-align: center;
+     font-size: 10em;
+     margin-top: 1.5em;
 }
 
 @media (max-width: 450px) {
     #name h1 {
         font-size: 9em;
-        margin-top: 1.5em;
+        margin-top: 1.25em;
+    }
+}
+
+@media (max-width: 720px) {
+    .bio-paragraph {
+        width: 30em;
+    }
+    
+    .bio-paragraph h1 {
+        font-size: 5em;
+    }
+    
+    .bio-img {
+    
+        width: 113%;
+        height: 25%;
+        background-repeat: no-repeat;
+        background-size: 90%, cover;
+        background-position: 0px -235px;
+    }
+    
+    .bio-img-two {
+    
+        width: 100%;
+        height: 25%;
+        background-repeat: no-repeat;
+        background-size: 100%, cover;
+        background-position: 0px -45px; 
     }
 }
