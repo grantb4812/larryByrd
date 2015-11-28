@@ -20,6 +20,10 @@ app.config(function($routeProvider){
         
         .when('/gallery', {
             templateUrl: 'views/music.html'
+        })
+        
+        .when('/contact', {
+           templateUrl: 'views/contact.html' 
         });
 });
 

@@ -48,6 +48,8 @@ body {
 
 .social-link {
     padding-bottom: 2em;
+    width: 25em;
+    margin: 0 auto;
 }
 
 .social-link li {
@@ -59,19 +61,11 @@ body {
 	display: inline-block;
 }
 
-#name {
-	position: absolute;
-	text-align: center;
-	top: 25%;
-	left: auto;
-	bottom: auto;
-	width: 100%;
-}
-
 #name h1 {
     font-family: 'Shadows Into Light', cursive;
 	font-size: 12.5em;
-	width: 100%;
+    text-align: center;
+	margin-top: 1em;
 }
 
 a {
@@ -99,8 +93,8 @@ a:active {
 
 
 .bio-paragraph {
-    height: 400px;
-    width: 800px;
+    height: 30em;
+    width: 50em;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
@@ -185,4 +179,22 @@ a:active {
     margin: 7em auto;
     overflow: hidden;
     text-align: center;
+}
+
+.email {
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(80%);
+    font-size: 5em;
+}
+
+@media (max-width: 450px) {
+    #name h1 {
+        font-size: 9em;
+        margin-top: 1.5em;
+    }
 }
