@@ -140,8 +140,8 @@ a:active {
 }
 
 .music-player {
-    height: 400px;
-    width: 800px;
+    height: 30em;
+    width: 50em;
     margin: 0 auto;
     position: relative;
     top: 50%;
@@ -196,6 +196,10 @@ a:active {
 }
 
 @media (max-width: 720px) {
+    .music-player {
+        width: 30em;
+    }
+    
     .bio-paragraph {
         width: 30em;
     }
@@ -224,6 +228,10 @@ a:active {
 }
 
 @media (max-width: 420px) {
+    .music-player {
+        width: 20em;
+    }
+    
     .bio-paragraph {
         width: 20em;
     }
