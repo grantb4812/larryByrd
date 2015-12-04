@@ -230,12 +230,12 @@ a:active {
 @media (max-width: 420px) {
     .music-player {
         width: 20em;
-        height: 7em;
+        height: 20em;
     }
     
     .bio-paragraph {
         width: 20em;
-        height: 7em;
+        height: 20em;
     }
     
     .bio-paragraph h1 {
