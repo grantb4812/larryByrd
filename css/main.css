@@ -65,7 +65,6 @@ body {
     font-family: 'Shadows Into Light', cursive;
 	font-size: 12.5em;
     text-align: center;
-	margin-top: 1em;
 }
 
 a {
@@ -93,43 +92,30 @@ a:active {
 
 
 .bio-paragraph {
-    height: 30em;
-    width: 50em;
     margin: 0 auto;
     overflow: hidden;
-    position: relative;
-    top: 50%;
-    transform: translateY(40%);
+    
 }
 
 .bio-scroll {
     height: 100%;
     width: 100%;
     overflow: auto;
+    
 }
 
-.bio-img {
-    background-image: url("../img/timthumb.jpeg");
-    width: 100%;
-    height: 50%;
-    background-repeat: no-repeat;
-    background-size: 100%, cover;
-    background-position: 0px -430px;
+.bio-scroll p {
+    margin: 0 auto;
 }
 
-.bio-img-two {
-    background-image: url("../img/larry.jpg");
-    width: 100%;
-    height: 50%;
-    background-repeat: no-repeat;
-    background-size: 100%, cover;
-    background-position: 0px -50px; 
-}
+
 
 .bio-paragraph p {
     font-family: 'Abel', sans-serif;
     font-weight: 100;
     font-size: 1.75em;
+    width: 80%;
+   
     /*background-color: black;*/
 }
 
@@ -138,17 +124,6 @@ a:active {
     text-align: center;
     font-size: 9em;
 }
-
-.music-player {
-    height: 30em;
-    width: 50em;
-    margin: 0 auto;
-    position: relative;
-    top: 50%;
-    transform: translateY(35%);
-    text-align: center;
-}
-
 
 #mce-EMAIL {
     color: black;
@@ -188,79 +163,53 @@ a:active {
 }
 
 
-@media (max-width: 450px) {
-    #name h1 {
-        font-size: 9em;
-        margin-top: 1.25em;
-    }
+
+
+.container-responsive {
+    position: relative;
+    height: 0;
 }
 
-@media (max-width: 720px) {
-    .music-player {
-        width: 30em;
-    }
-    
-    .bio-paragraph {
-        width: 30em;
-    }
-    
-    .bio-paragraph h1 {
-        font-size: 5em;
-    }
-    
-    .bio-img {
-    
-        width: 113%;
-        height: 25%;
-        background-repeat: no-repeat;
-        background-size: 90%, cover;
-        background-position: 0px -235px;
-    }
-    
-    .bio-img-two {
-    
-        width: 100%;
-        height: 25%;
-        background-repeat: no-repeat;
-        background-size: 100%, cover;
-        background-position: 0px -45px; 
-    }
+.container-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-@media (max-width: 420px) {
-    .music-player {
-        width: 20em;
-        height: 25em;
-    }
-    
-    .bio-paragraph {
-        width: 20em;
-        height: 25em;
-    }
-    
-    .bio-paragraph h1 {
-        font-size: 3em;
-    }
-    
-    .bio-paragraph p {
-        font-size: 1.5em;
-    }
-    
-    .bio-img {
-    
-        width: 113%;
-        height: 20%;
-        background-repeat: no-repeat;
-        background-size: 90%, cover;
-        background-position: 0px -155px;
-    }
-    
-    .bio-img-two {
-    
-        width: 100%;
-        height: 25%;
-        background-repeat: no-repeat;
-        background-size: 100%, cover;
-        background-position: 0px -20px; 
-    }
+.cont-res-home {
+    padding-bottom: 15%;
+    margin: 20em auto;
+}
+
+.cont-res-music {
+    padding-bottom: 35%;
+    margin: 10em auto;
+    max-width: 90%;
+}
+
+.cont-res-bio {
+    padding-bottom: 35%;
+    margin: 10em auto;
+    max-width: 80%;
+}
+
+.bio-img,
+.bio-img-two {
+    padding-bottom: 30%;
+    margin: 0 auto;
+}
+
+.bio-img img, 
+.bio-img-two img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
