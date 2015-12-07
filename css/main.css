@@ -147,6 +147,7 @@ a:active {
     top: 50%;
     transform: translateY(35%);
     text-align: center;
+    
 }
 
 
@@ -190,8 +191,12 @@ a:active {
 
 @media (max-width: 450px) {
     #name h1 {
-        font-size: 9em;
-        margin-top: 1.25em;
+        font-size: 8em;
+        margin-top: 1em;
+    }
+    
+    .email {
+        margin-top: 1em;
     }
 }
 
@@ -230,7 +235,8 @@ a:active {
 @media (max-width: 420px) {
     .music-player {
         width: 20em;
-        height: 20em;
+        height: 18em;
+        margin-top: 3em;
     }
     
     .bio-paragraph {
@@ -243,7 +249,7 @@ a:active {
     }
     
     .bio-paragraph p {
-        font-size: 1.5em;
+        font-size: 1.25em;
     }
     
     .bio-img {
@@ -263,4 +269,41 @@ a:active {
         background-size: 100%, cover;
         background-position: 0px -20px; 
     }
+}
+
+@media screen and (orientation: landscape) {
+     #name h1 {
+         margin-top: 22%;
+         font-size: 6em;
+     }
+     
+     .bio-paragraph {
+         height: 13em;
+        
+     }
+     
+     .bio-paragraph h1 {
+         font-size: 3em;
+     }
+     
+     .bio-paragraph p {
+         font-size: 1em;
+     }
+     
+     .bio-img {
+         height: 48%;
+     }
+     
+     .bio-img-two {
+         height: 50%;
+     }
+     
+     .email {
+         margin-top: .5em;
+     }
+     
+     .music-player {
+         margin-top: 3em;
+         height: 20%;
+     }
 }
