@@ -13,10 +13,8 @@
 /*
 	// heading font
 font-family: 'Shadows Into Light', cursive;
-
 	// menu font 
 font-family: 'Abel', sans-serif;
-
 */
 
 body {
@@ -65,6 +63,7 @@ body {
     font-family: 'Shadows Into Light', cursive;
 	font-size: 12.5em;
     text-align: center;
+	margin-top: 1em;
 }
 
 a {
@@ -92,30 +91,43 @@ a:active {
 
 
 .bio-paragraph {
+    height: 30em;
+    width: 50em;
     margin: 0 auto;
     overflow: hidden;
-    
+    position: relative;
+    top: 50%;
+    transform: translateY(40%);
 }
 
 .bio-scroll {
     height: 100%;
     width: 100%;
     overflow: auto;
-    
 }
 
-.bio-scroll p {
-    margin: 0 auto;
+.bio-img {
+    background-image: url("../img/timthumb.jpeg");
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%, cover;
+    background-position: 0px -430px;
 }
 
-
+.bio-img-two {
+    background-image: url("../img/larry.jpg");
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%, cover;
+    background-position: 0px -50px; 
+}
 
 .bio-paragraph p {
     font-family: 'Abel', sans-serif;
     font-weight: 100;
     font-size: 1.75em;
-    width: 80%;
-   
     /*background-color: black;*/
 }
 
@@ -125,7 +137,6 @@ a:active {
     font-size: 9em;
 }
 
-<<<<<<< HEAD
 .music-player {
     height: 30em;
     width: 50em;
@@ -134,12 +145,9 @@ a:active {
     top: 50%;
     transform: translateY(35%);
     text-align: center;
-    
 }
 
 
-=======
->>>>>>> 79962e7dbd7090965b291f9fca8e27ad655ab677
 #mce-EMAIL {
     color: black;
 }
