@@ -178,43 +178,49 @@ a:active {
 }
 
 
-<<<<<<< HEAD
 @media (max-width: 450px) {
     #name h1 {
-        font-size: 8em;
-        margin-top: 1em;
+        font-size: 9em;
+        margin-top: 1.25em;
+    }
+}
+
+@media (max-width: 720px) {
+    .music-player {
+        width: 30em;
     }
     
-    .email {
-        margin-top: 1em;
+    .bio-paragraph {
+        width: 30em;
     }
-=======
-
-
-.container-responsive {
-    position: relative;
-    height: 0;
->>>>>>> 79962e7dbd7090965b291f9fca8e27ad655ab677
+    
+    .bio-paragraph h1 {
+        font-size: 5em;
+    }
+    
+    .bio-img {
+    
+        width: 113%;
+        height: 25%;
+        background-repeat: no-repeat;
+        background-size: 90%, cover;
+        background-position: 0px -235px;
+    }
+    
+    .bio-img-two {
+    
+        width: 100%;
+        height: 25%;
+        background-repeat: no-repeat;
+        background-size: 100%, cover;
+        background-position: 0px -45px; 
+    }
 }
 
-.container-child {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-<<<<<<< HEAD
 @media (max-width: 420px) {
     .music-player {
         width: 20em;
-        height: 18em;
-        margin-top: 3em;
+        height: 20em;
     }
     
     .bio-paragraph {
@@ -227,7 +233,7 @@ a:active {
     }
     
     .bio-paragraph p {
-        font-size: 1.25em;
+        font-size: 1.5em;
     }
     
     .bio-img {
@@ -248,78 +254,3 @@ a:active {
         background-position: 0px -20px; 
     }
 }
-<<<<<<< HEAD
-/*
-@media only screen and (orientation: landscape) {
-     #name h1 {
-         margin-top: 22%;
-         font-size: 6em;
-     }
-     
-     .bio-paragraph {
-         height: 13em;
-        
-     }
-     
-     .bio-paragraph h1 {
-         font-size: 3em;
-     }
-     
-     .bio-paragraph p {
-         font-size: 1em;
-     }
-     
-     .bio-img {
-         height: 48%;
-     }
-     
-     .bio-img-two {
-         height: 50%;
-     }
-     
-     .email {
-         margin-top: .5em;
-     }
-     
-     .music-player {
-         margin-top: 3em;
-         height: 20%;
-     }
-}
-*/
-=======
-.cont-res-home {
-    padding-bottom: 15%;
-    margin: 20em auto;
-}
-
-.cont-res-music {
-    padding-bottom: 35%;
-    margin: 10em auto;
-    max-width: 90%;
-}
-
-.cont-res-bio {
-    padding-bottom: 35%;
-    margin: 10em auto;
-    max-width: 80%;
-}
-
-.bio-img,
-.bio-img-two {
-    padding-bottom: 30%;
-    margin: 0 auto;
-}
-
-.bio-img img, 
-.bio-img-two img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
->>>>>>> 79962e7dbd7090965b291f9fca8e27ad655ab677
-=======
-/* i hope this works*/
->>>>>>> new-branch
