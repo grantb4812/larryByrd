@@ -270,8 +270,8 @@ a:active {
         background-position: 0px -20px; 
     }
 }
-
-@media screen and (orientation: landscape) {
+/*
+@media only screen and (orientation: landscape) {
      #name h1 {
          margin-top: 22%;
          font-size: 6em;
@@ -307,3 +307,4 @@ a:active {
          height: 20%;
      }
 }
+*/
