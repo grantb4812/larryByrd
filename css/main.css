@@ -248,6 +248,7 @@ a:active {
         background-position: 0px -20px; 
     }
 }
+<<<<<<< HEAD
 /*
 @media only screen and (orientation: landscape) {
      #name h1 {
@@ -319,3 +320,6 @@ a:active {
   width: 100%;
 }
 >>>>>>> 79962e7dbd7090965b291f9fca8e27ad655ab677
+=======
+/* i hope this works*/
+>>>>>>> new-branch
